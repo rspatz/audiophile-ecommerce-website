@@ -19,8 +19,26 @@
   src: url(../fonts/ttf/Manrope-Medium.ttf);
 }
 
+/* Navigation */
+
 nav {
+  background-color: #000;
+
   font-family: Manrope-Bold;
+  padding: 1rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.nav a {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: #fff;
 }
 
 h1 {
