@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Fonts */
+@font-face {
+  font-family: Manrope-Regular;
+  src: url(../fonts/ttf/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: Manrope-Bold;
+  src: url(../fonts/ttf/Manrope-Bold.ttf);
+}
+
+@font-face {
+  font-family: Manrope-Medium;
+  src: url(../fonts/ttf/Manrope-Medium.ttf);
+}
+
+nav {
+  font-family: Manrope-Bold;
+}
+
+h1 {
+  font-family: Manrope-Bold;
+}
+
+h2 {
+  font-famiy: Manrope-Medium;
+}
+
+p {
+  font-family: Manrope-Regular;
+}
