@@ -4,28 +4,66 @@
 }
 
 /* Custom Fonts */
+
 @font-face {
-  font-family: Manrope-Regular;
+  font-family: 'Manrope-Light';
+  src: url(../fonts/ttf/Manrope-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Manrope-Regular';
   src: url(../fonts/ttf/Manrope-Regular.ttf);
 }
 
 @font-face {
-  font-family: Manrope-Bold;
+  font-family: 'Manrope-Bold';
   src: url(../fonts/ttf/Manrope-Bold.ttf);
 }
 
 @font-face {
-  font-family: Manrope-Medium;
+  font-family: 'Manrope-Medium';
   src: url(../fonts/ttf/Manrope-Medium.ttf);
+}
+
+/* Logo */
+.logo {
+  color: #fff;
+  margin-left: 5rem;
+}
+
+.logo h2 {
+  font-family: Manrope-Bold;
+  font-weight: 700;
 }
 
 /* Navigation */
 
 nav {
   background-color: #000;
+  font-family: Manrope-Regular;
+  display: flex;
+  padding-bottom: 2rem;
+}
 
-  font-family: Manrope-Bold;
-  padding: 1rem;
+.nav-container {
+  display: flex;
+  width: 70%;
+  padding: 2rem 0 0 4rem;
+}
+
+.nav-container ul {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.product-container {
+  display: flex;
+  height: 40rem;
+  margin: 0 auto;
+  border-bottom: 0.5px solid #f1f1f1;
+  background: url('../assets/home/desktop/image-hero.jpg') no-repeat 0 0;
+  background-position: bottom;
+  background-color: #000;
 }
 
 .nav ul {
@@ -37,18 +75,90 @@ nav {
 
 .nav a {
   text-decoration: none;
-  margin-left: 2rem;
+  margin: 0 0 0 2rem;
   color: #fff;
+  font-size: 0.85rem;
+  text-transform: upperCase;
+  letter-spacing: 0.15rem;
 }
 
+/* Header */
+
 h1 {
-  font-family: Manrope-Bold;
+  font-family: 'Manrope-Light';
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0.6rem;
+  text-transform: upperCase;
+  color: #fff;
+  margin: 2rem 0;
 }
 
 h2 {
-  font-famiy: Manrope-Medium;
+  font-famiy: 'Manrope-Medium';
+}
+
+h4 {
+  font-family: 'Manrope-Light';
 }
 
 p {
-  font-family: Manrope-Regular;
+  font-family: 'Manrope-Regular';
+}
+
+.container-left {
+  margin-left: 8.5rem;
+  width: 40%;
+}
+
+.container-left h4 {
+  font-size: 0.9rem;
+  text-transform: upperCase;
+  margin: 8rem 0 2rem 0;
+  letter-spacing: 0.6rem;
+  color: #f1f1f1;
+  opacity: 0.5;
+}
+
+.container-left p {
+  color: #f1f1f1;
+  width: 60%;
+  line-height: 1.75rem;
+}
+
+.headphone-button {
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  letter-spacing: 0.15rem;
+  text-transform: upperCase;
+  background: #d87d4a;
+  color: #f1f1f1;
+}
+
+/* Display Cards */
+.display-cards {
+  display: flex;
+  margin: 12rem 0;
+}
+
+.display-cards h3 {
+  text-align: center;
+}
+
+.display-cards button {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.card-1 {
+}
+
+/* Images */
+/* .display-card-img-1 {
+  height: 20rem;
+  width: 20rem;
+} */
+
+/* Footer */
+.footer {
 }
