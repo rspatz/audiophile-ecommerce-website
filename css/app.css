@@ -44,15 +44,15 @@ h2 {
 
 h3 {
   font-family: 'Manrope-Bold';
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 2rem;
-  letter-spacing: 1rem;
+  letter-spacing: 0.5rem;
   text-transform: upperCase;
 }
 
 h4 {
   font-family: 'Manrope-Bold';
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 2.375rem;
   letter-spacing: 0.125rem;
   text-transform: upperCase;
@@ -60,7 +60,7 @@ h4 {
 
 h5 {
   font-family: 'Manrope-Bold';
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2.0625rem;
   letter-spacing: 0.10625rem;
   text-transform: upperCase;
@@ -278,7 +278,19 @@ nav {
   background: url('../assets/home/desktop/image-speaker-zx7.jpg') no-repeat;
   background-size: cover;
   background-position: bottom;
-  background-color: gray;
+}
+
+.zx7-button {
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  letter-spacing: 0.15rem;
+  text-transform: upperCase;
+  background: none;
+  color: #000;
+}
+
+.zx7-info {
+  margin: 5rem 0 0 6rem;
 }
 
 /* Footer */
