@@ -378,6 +378,7 @@ span {
 /* Footer */
 .footer {
   background-color: #000;
+  height: 22rem;
 }
 
 .footer-nav ul {
@@ -419,3 +420,4 @@ span {
   opacity: 50%;
   margin
 }
+
