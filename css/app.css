@@ -157,7 +157,7 @@ nav {
 
 .container-left p {
   color: #f1f1f1;
-  width: 60%;
+  width: 65%;
   line-height: 1.75rem;
 }
 
@@ -352,4 +352,28 @@ nav {
   color: #fff;
   margin: 2rem;
   text-decoration: none;
+}
+
+.footer-description {
+  width: 36.5%;
+  margin-left: 8rem;
+}
+
+.footer-logo {
+  font-family: Manrope-Bold;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+.footer-description h4,
+.footer-description p {
+  color: #fff;
+}
+
+.footer-description p {
+  margin: 1.5rem 0 3rem 0;
+  line-height: 1.75rem;
+  opacity: 50%;
+  margin
 }
