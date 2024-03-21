@@ -94,6 +94,7 @@ p {
 
 nav {
   background-color: #000;
+  opacity: 90%;
   font-family: Manrope-Regular;
   display: flex;
   padding-bottom: 2rem;
@@ -127,6 +128,11 @@ nav {
   font-size: 0.85rem;
   text-transform: upperCase;
   letter-spacing: 0.15rem;
+}
+
+.rule {
+  color: blue;
+  width: 40%;
 }
 
 /* Header */
