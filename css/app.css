@@ -381,17 +381,24 @@ span {
   height: 22rem;
 }
 
-.footer-nav ul {
+.footer-nav-container {
+  display: flex;
+  width: 90rem;
+  padding: 2rem 0 0 8rem;
+  align-items: center;
+}
+
+.footer-nav-container ul {
   display: flex;
   width: 50%;
   margin: 0 auto;
 }
 
-.footer-nav li {
+.footer-nav-container li {
   list-style-type: none;
 }
 
-.footer-nav a {
+.footer-nav-container a {
   color: #fff;
   margin: 2rem;
   text-decoration: none;
@@ -407,6 +414,7 @@ span {
   font-weight: 700;
   font-size: 1.75rem;
   color: #fff;
+  margin-right: 25rem;
 }
 
 .footer-description h4,
