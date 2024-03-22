@@ -130,6 +130,10 @@ nav {
   letter-spacing: 0.15rem;
 }
 
+.shopping-cart {
+  margin-right: 14rem;
+}
+
 .rule {
   color: blue;
   width: 40%;
@@ -174,6 +178,22 @@ nav {
   text-transform: upperCase;
   background: #d87d4a;
   color: #f1f1f1;
+}
+
+/* Category Header */
+.cat-header {
+  width: 90rem;
+  margin: 0 auto;
+  padding: 3rem 0 4rem 0;
+  background-color: #000;
+  opacity: 90%;
+  color: #f1f1f1;
+}
+
+.cat-header h3 {
+  letter-spacing: 0.2rem;
+  width: 16%;
+  margin: 0 auto;
 }
 
 /* Display Cards */
