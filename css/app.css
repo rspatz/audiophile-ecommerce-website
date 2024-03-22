@@ -359,6 +359,19 @@ nav {
   color: #000;
 }
 
+/* Product Container Mark II */
+.product-container-mark-2 {
+}
+
+.product-container-mark-2 h4 {
+  font-size: 0.9rem;
+  text-transform: upperCase;
+  margin: 8rem 0 2rem 0;
+  letter-spacing: 0.6rem;
+  color: #f1f1f1;
+  opacity: 0.5;
+}
+
 /* Promo */
 .promo {
   display: flex;
