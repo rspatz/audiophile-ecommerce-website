@@ -40,6 +40,7 @@ h2 {
   font-size: 3rem;
   line-height: 3.25rem;
   letter-spacing: 0.09375rem;
+  text-transform: upperCase;
 }
 
 h3 {
@@ -383,6 +384,35 @@ nav {
   background-size: cover;
   margin: 0 2rem 0 1rem;
   border-radius: 10px;
+}
+
+.product-right-mark-2 {
+  width: 40%;
+  margin: 0 0 0 5rem;
+}
+
+.product-right-mark-2 h2 {
+  margin-bottom: 2rem;
+}
+
+.product-right-mark-2 h4 {
+  margin: 6rem 0 0.25rem 0;
+}
+
+.product-right-mark-2 p {
+  opacity: 60%;
+  line-height: 1.75rem;
+}
+
+.product-right-mark-2 button {
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    border: none;
+    letter-spacing: 0.15rem;
+    text-transform: upperCase;
+    background: #d87d4a;
+    color: #f1f1f1;
+}
 }
 
 /* Promo */
