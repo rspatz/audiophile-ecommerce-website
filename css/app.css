@@ -514,6 +514,111 @@ nav {
   color: #f1f1f1;
 }
 
+/* Speakers */
+/* ZX9 */
+.product-container-zx9 {
+  display: flex;
+  height: 35rem;
+  width: 80rem;
+  margin: 10rem auto;
+}
+
+.product-container-zx9 h4 {
+  font-size: 0.9rem;
+  text-transform: upperCase;
+  margin: 8rem 0 2rem 0;
+  letter-spacing: 0.6rem;
+  color: #d87d4a;
+  opacity: 0.5;
+}
+
+.product-left-zx9 {
+  width: 40%;
+  background: url('../assets/product-zx9-speaker/desktop/image-product.jpg')
+    no-repeat;
+  background-size: cover;
+  margin: 0 2rem 0 1rem;
+  border-radius: 10px;
+}
+
+.product-right-zx9 {
+  width: 40%;
+  margin: 0 0 0 5rem;
+}
+
+.product-right-zx9 h2 {
+  margin-bottom: 2rem;
+}
+
+.product-right-zx9 h4 {
+  margin: 6rem 0 0.25rem 0;
+}
+
+.product-right-zx9 p {
+  opacity: 60%;
+  line-height: 1.75rem;
+}
+
+.product-right-zx9 button {
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border: none;
+  letter-spacing: 0.15rem;
+  text-transform: upperCase;
+  background: #d87d4a;
+  color: #f1f1f1;
+}
+
+/* ZX7 */
+.product-container-zx7 {
+  display: flex;
+  height: 35rem;
+  width: 80rem;
+  margin: 10rem auto;
+}
+
+.product-container-zx7 h4 {
+  font-size: 0.9rem;
+  text-transform: upperCase;
+  margin: 8rem 0 2rem 0;
+  letter-spacing: 0.6rem;
+  color: #d87d4a;
+  opacity: 0.5;
+}
+
+.product-right-zx7 {
+  width: 40%;
+  background: url('../assets/product-zx7-speaker/desktop/image-product.jpg')
+    no-repeat;
+  background-size: cover;
+  margin: 0 2rem 0 0;
+  border-radius: 10px;
+}
+
+.product-left-zx7 {
+  width: 38%;
+  margin: 9rem 10rem 0 1rem;
+}
+
+.product-left-zx7 h2 {
+  margin-bottom: 2rem;
+}
+
+.product-left-zx7 p {
+  opacity: 60%;
+  line-height: 1.75rem;
+}
+
+.product-left-zx7 button {
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border: none;
+  letter-spacing: 0.15rem;
+  text-transform: upperCase;
+  background: #d87d4a;
+  color: #f1f1f1;
+}
+
 /* Promo */
 .promo {
   display: flex;
