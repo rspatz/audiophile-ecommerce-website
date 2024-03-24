@@ -519,7 +519,7 @@ nav {
 .product-container-zx9 {
   display: flex;
   height: 35rem;
-  width: 80rem;
+  width: 70rem;
   margin: 10rem auto;
 }
 
@@ -533,16 +533,16 @@ nav {
 }
 
 .product-left-zx9 {
-  width: 40%;
+  width: 45%;
   background: url('../assets/product-zx9-speaker/desktop/image-product.jpg')
     no-repeat;
   background-size: cover;
-  margin: 0 2rem 0 1rem;
+  margin: 0 2rem 0 6rem;
   border-radius: 10px;
 }
 
 .product-right-zx9 {
-  width: 40%;
+  width: 45%;
   margin: 0 0 0 5rem;
 }
 
@@ -597,7 +597,7 @@ nav {
 
 .product-left-zx7 {
   width: 38%;
-  margin: 9rem 10rem 0 1rem;
+  margin: 9rem 12rem 0 12rem;
 }
 
 .product-left-zx7 h2 {
