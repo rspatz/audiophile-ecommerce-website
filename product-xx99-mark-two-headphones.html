@@ -1,90 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <title>Frontend Mentor | Audiophile e-commerce website</title>
+  </head>
 
-  <title>Frontend Mentor | Audiophile e-commerce website</title>
-</head>
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <h2 class="logo">audiophile</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="headphones.html">Headphones</a></li>
+          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="earphones.html">Earphones</a></li>
+        </ul>
+        <div class="shopping-cart">
+          <img
+            src="./assets/shared/desktop/icon-cart.svg"
+            alt="Shopping Cart"
+          />
+        </div>
+      </div>
+    </nav>
 
-<body>
-  Home
-  Headphones
-  Speakers
-  Earphones
+    <!-- Display Card Section -->
+    <section class="display-cards">
+      <div class="card-1">
+        <img
+          class="display-card-img-1"
+          src="./assets/shared/desktop/image-category-thumbnail-headphones.png"
+          alt="headphones"
+        />
+        <h6>Headphones</h6>
+        <button>Shop ></button>
+      </div>
 
-  Go back
+      <div class="card-2">
+        <img
+          class="display-card-img-2"
+          src="./assets/shared/desktop/image-category-thumbnail-speakers.png"
+          alt="speakers"
+        />
+        <h6>Speakers</h6>
+        <button>Shop ></button>
+      </div>
 
-  New product
+      <div class="card-3">
+        <img
+          class="display-card-img-3"
+          src="./assets/shared/desktop/image-category-thumbnail-earphones.png"
+          alt="earphones"
+        />
+        <h6>Earphones</h6>
+        <button>Shop ></button>
+      </div>
+    </section>
 
-  XX99 Mark II Headphones
-  The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your 
-  premium headphone experience by reproducing the balanced depth and precision of 
-  studio-quality sound.
+    <section class="promo">
+      <div class="promo-text">
+        <h3>Bringing you the <span>best</span> audio gear</h3>
+        <p>
+          Located at the heart of New York City, Audiophile is the premier store
+          for high end headphones, earphones, speakers, and audio accessories.
+          We have a large showroom and luxury demonstration rooms available for
+          you to browse and experience a wide range of our products. Stop by our
+          store to meet some of the fantastic people who make Audiophile the
+          best place to buy your portable audio equipment.
+        </p>
+      </div>
 
-  $2,999
-  1
-  Add to cart
+      <div class="promo-image"></div>
+    </section>
 
-  Features
-  Featuring a genuine leather head strap and premium earcups, these headphones deliver superior 
-  comfort for those who like to enjoy endless listening. It includes intuitive controls designed 
-  for any situation. Whether you’re taking a business call or just in your own personal space, the 
-  auto on/off and pause features ensure that you’ll never miss a beat.
+    <footer class="footer">
+      <nav class="footer-nav-container">
+        <h2 class="footer-logo">audiophile</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Headphones</a></li>
+          <li><a href="#">Speakers</a></li>
+          <li><a href="#">Earphones</a></li>
+        </ul>
+      </nav>
 
-  The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio 
-  world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings 
-  when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the 
-  XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic.
+      <div class="footer-description">
+        <!-- <div class="icon-container">
+          <img src="./assets/shared/desktop/icon-facebook.svg" alt="facebook">
+          <img src="./assets/shared/desktop/icon-twitter.svg" alt="twitter">
+          <img src="./assets/shared/desktop/icon-instagram.svg" alt="instagram">
+        </div> -->
 
-  In the box
+        <div class="footer-container">
+          <p>
+            Audiophile is an all in one stop to fulfill your audio needs. We're
+            a small team of music lovers and sound specialists who are devoted
+            to helping you get the most out of personal audio. Come and visit
+            our demo facility - we’re open 7 days a week.
+          </p>
+        </div>
 
-  1x Headphone unit
-  2x Replacement earcups
-  1x User manual
-  1x 3.5mm 5m audio cable
-  1x Travel bag
+        <div class="copyright">
+          <p>&copy; 2024. All Rights Reserved</p>
+        </div>
+      </div>
 
-  You may also like
-
-  XX99 Mark I
-  See product
-
-  XX59
-  See product
-
-  ZX9 speaker
-  See product
-
-  Headphones
-  Shop
-  
-  Speakers
-  Shop
-  
-  Earphones
-  Shop
-
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
-  rooms available for you to browse and experience a wide range of our products. Stop by our store
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment.
-
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-  visit our demo facility - we’re open 7 days a week.
-
-  Copyright 2021. All Rights Reserved
-</body>
-
+      <div class="social"></div>
+    </footer>
+    Go back New product XX99 Mark II Headphones The new XX99 Mark II headphones
+    is the pinnacle of pristine audio. It redefines your premium headphone
+    experience by reproducing the balanced depth and precision of studio-quality
+    sound. $2,999 1 Add to cart Features Featuring a genuine leather head strap
+    and premium earcups, these headphones deliver superior comfort for those who
+    like to enjoy endless listening. It includes intuitive controls designed for
+    any situation. Whether you’re taking a business call or just in your own
+    personal space, the auto on/off and pause features ensure that you’ll never
+    miss a beat. The advanced Active Noise Cancellation with built-in equalizer
+    allow you to experience your audio world on your terms. It lets you enjoy
+    your audio in peace, but quickly interact with your surroundings when you
+    need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour
+    battery life, the XX99 Mark II headphones gives you superior sound,
+    cutting-edge technology, and a modern design aesthetic. In the box 1x
+    Headphone unit 2x Replacement earcups 1x User manual 1x 3.5mm 5m audio cable
+    1x Travel bag You may also like XX99 Mark I See product XX59 See product ZX9
+    speaker See product Headphones Shop Speakers Shop Earphones Shop Bringing
+    you the best audio gear Located at the heart of New York City, Audiophile is
+    the premier store for high end headphones, earphones, speakers, and audio
+    accessories. We have a large showroom and luxury demonstration rooms
+    available for you to browse and experience a wide range of our products.
+    Stop by our store to meet some of the fantastic people who make Audiophile
+    the best place to buy your portable audio equipment. Home Headphones
+    Speakers Earphones Audiophile is an all in one stop to fulfill your audio
+    needs. We're a small team of music lovers and sound specialists who are
+    devoted to helping you get the most out of personal audio. Come and visit
+    our demo facility - we’re open 7 days a week. Copyright 2021. All Rights
+    Reserved
+  </body>
 </html>
