@@ -3,6 +3,26 @@
   padding: 0;
 }
 
+/* Colors */
+/* :root {
+  --dark-cyan: #0e8784;
+  --dark-grey-blue: #333d4b;
+  --pale-orange: #fdd6ba;
+  --light-cream-bg: #fefcf7;
+  --grey: #83888f;
+}
+ */
+
+:root {
+  --orange: #d87d4a;
+  --light-orange: #fbaf85;
+  --black: #000;
+  --very-dark-grey: #101010;
+  --light-grey: #f1f1f1;
+  --very-light-grey: #fafafa;
+  --white: #fff;
+}
+
 /* Custom Fonts */
 
 @font-face {
@@ -31,7 +51,7 @@ h1 {
   line-height: 3.625rem;
   letter-spacing: 0.125rem;
   text-transform: upperCase;
-  color: #fff;
+  color: var(--white);
   margin: 2rem 0;
 }
 
@@ -81,7 +101,7 @@ p {
 
 /* Logo */
 .logo {
-  color: #fff;
+  color: var(--white);
   margin-left: 5rem;
 }
 
@@ -91,10 +111,14 @@ p {
   font-size: 1.75rem;
 }
 
+.sr-only {
+  display: none;
+}
+
 /* Navigation */
 
 nav {
-  background-color: #000;
+  background-color: var(--black);
   opacity: 90%;
   font-family: Manrope-Regular;
   display: flex;
@@ -125,7 +149,7 @@ nav {
 .nav a {
   text-decoration: none;
   margin: 0 0 0 2rem;
-  color: #fff;
+  color: var(--white);
   font-size: 0.85rem;
   text-transform: upperCase;
   letter-spacing: 0.15rem;
@@ -140,16 +164,18 @@ nav {
   width: 40%;
 }
 
-/* Header */
+/* Mobile Navigation */
+
+/* Home Page Header */
 .product-container {
   display: flex;
   width: 90rem;
   height: 40rem;
   margin: 0 auto;
-  border-bottom: 0.5px solid #f1f1f1;
+  border-bottom: 0.5px solid var(--light-grey);
   background: url('../assets/home/desktop/image-hero.jpg') no-repeat 0 0;
   background-position: bottom;
-  background-color: #000;
+  background-color: var(--black);
 }
 
 .container-left {
@@ -162,12 +188,12 @@ nav {
   text-transform: upperCase;
   margin: 8rem 0 2rem 0;
   letter-spacing: 0.6rem;
-  color: #f1f1f1;
+  color: var(--light-grey);
   opacity: 0.5;
 }
 
 .container-left p {
-  color: #f1f1f1;
+  color: var(--light-grey);
   width: 65%;
   line-height: 1.75rem;
 }
@@ -177,8 +203,60 @@ nav {
   margin: 2rem 0;
   letter-spacing: 0.15rem;
   text-transform: upperCase;
-  background: #d87d4a;
-  color: #f1f1f1;
+  background: var(--orange);
+  color: var(--light-grey);
+}
+
+/* Mobile Home Page Header */
+@media only screen and (max-width: 600px) {
+  .product-container {
+    flex-direction: column;
+    width: 100%;
+    height: 65rem;
+    margin: 0;
+    border-bottom: 0.5px solid var(--light-grey);
+    background: url('../assets/home/mobile/image-header.jpg') no-repeat 0 0;
+    background-position: bottom;
+    object-fit: cover;
+    background-color: var(--black);
+  }
+
+  .container-left {
+    flex-direction: column;
+    margin: 18rem 0 0 0;
+    width: 100%;
+  }
+
+  .container-left h1 {
+    text-align: center;
+  }
+
+  .container-left h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 8rem 0 2rem 0;
+    letter-spacing: 0.6rem;
+    color: var(--light-grey);
+    opacity: 0.5;
+  }
+
+  .container-left p {
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    width: 90%;
+  }
+
+  .headphone-button {
+    padding: 1rem 2rem;
+    width: 50%;
+    margin: 2rem 7rem;
+    letter-spacing: 0.15rem;
+    text-transform: upperCase;
+    background: var(--orange);
+    color: var(--light-grey);
+  }
 }
 
 /* Category Header */
@@ -186,9 +264,9 @@ nav {
   width: 90rem;
   margin: 0 auto;
   padding: 3rem 0 4rem 0;
-  background-color: #000;
+  background-color: var(--black);
   opacity: 90%;
-  color: #f1f1f1;
+  color: var(--light-grey);
 }
 
 .cat-header h3 {
@@ -197,7 +275,7 @@ nav {
   margin: 0 auto;
 }
 
-/* Display Cards */
+/* Home Page Display Cards */
 .display-cards {
   display: flex;
   margin: 10rem auto;
@@ -210,7 +288,7 @@ nav {
 .card-1,
 .card-2,
 .card-3 {
-  background-color: #f1f1f1;
+  background-color: var(--light-grey);
   border-radius: 10px;
   padding: 1rem 3.5rem;
   /* margin: 0.5rem; */
@@ -242,7 +320,26 @@ nav {
   margin-top: -7rem;
 }
 
-/* Product ZX9 */
+/* Mobile Home Page Display Cards */
+@media only screen and (max-width: 600px) {
+  .display-cards {
+    flex-direction: column;
+    width: 90%;
+    margin: 5rem auto;
+    justify-content: flex-start;
+    align-items: baseline;
+    /* Aligns buttons at bottom */
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    margin: 5rem 0;
+    /* margin: 0.5rem; */
+  }
+}
+
+/* Home Page: Product ZX9 */
 
 .product-container-ZX9 {
   display: flex;
@@ -253,7 +350,7 @@ nav {
   /* background: url('../assets/home/desktop/image-speaker-zx9.png') no-repeat;
   background-size: 25% 50%;
   background-position: bottom left; */
-  background-color: #d87d4a;
+  background-color: var(--orange);
 }
 
 .zx9-img {
@@ -268,14 +365,14 @@ nav {
 
 .zx9-info h2 {
   width: 15%;
-  color: #fff;
+  color: var(--white);
   text-transform: upperCase;
   margin-bottom: 1.5rem;
 }
 
 .zx9-info p {
   width: 60%;
-  color: #fff;
+  color: var(--white);
   line-height: 1.5rem;
   letter-spacing: 0.05rem;
 }
@@ -285,7 +382,7 @@ nav {
 }
 
 .container-right p {
-  color: #f1f1f1;
+  color: var(--light-grey);
   width: 60%;
   line-height: 1.75rem;
 }
@@ -295,8 +392,68 @@ nav {
   margin: 2rem 0;
   letter-spacing: 0.15rem;
   text-transform: upperCase;
-  background: #d87d4a;
-  color: #f1f1f1;
+  background: var(--orange);
+  color: var(--light-grey);
+}
+
+/* Mobile Home Page: Product ZX9 */
+@media only screen and (max-width: 600px) {
+  .product-container-ZX9 {
+    flex-direction: column;
+    height: 52rem;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--orange);
+  }
+
+  .zx9-img {
+    height: 20rem;
+    width: 15rem;
+    margin: 4rem 5rem;
+  }
+
+  .zx9-info {
+    margin: 0;
+  }
+
+  .zx9-info h2 {
+    width: 60%;
+    color: var(--white);
+    text-transform: upperCase;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .zx9-info p {
+    font-size: 1.05rem;
+    width: 90%;
+    color: var(--white);
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .zx9-info button {
+    margin: 2rem 6rem;
+  }
+
+  .container-right p {
+    color: var(--light-grey);
+    width: 60%;
+    line-height: 1.75rem;
+  }
+
+  .zx9-button {
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    letter-spacing: 0.15rem;
+    text-transform: upperCase;
+    background: var(--orange);
+    color: var(--light-grey);
+  }
 }
 
 /* Product ZX7 */
@@ -317,7 +474,7 @@ nav {
   letter-spacing: 0.15rem;
   text-transform: upperCase;
   background: none;
-  color: #000;
+  color: var(--black);
 }
 
 .zx7-info {
@@ -342,7 +499,7 @@ nav {
 
 .product-right {
   width: 55%;
-  background-color: #f1f1f1;
+  background-color: var(--light-grey);
   border-radius: 10px;
 }
 
@@ -357,7 +514,7 @@ nav {
   letter-spacing: 0.15rem;
   text-transform: upperCase;
   background: none;
-  color: #000;
+  color: var(--black);
 }
 
 /* Product Mark II */
@@ -373,7 +530,7 @@ nav {
   text-transform: upperCase;
   margin: 8rem 0 2rem 0;
   letter-spacing: 0.6rem;
-  color: #d87d4a;
+  color: var(--orange);
   opacity: 0.5;
 }
 
@@ -410,8 +567,8 @@ nav {
   border: none;
   letter-spacing: 0.15rem;
   text-transform: upperCase;
-  background: #d87d4a;
-  color: #f1f1f1;
+  background: var(--orange);
+  color: var(--light-grey);
 }
 
 /* Product Mark I */
@@ -427,7 +584,7 @@ nav {
   text-transform: upperCase;
   margin: 8rem 0 2rem 0;
   letter-spacing: 0.6rem;
-  color: #d87d4a;
+  color: var(--orange);
   opacity: 0.5;
 }
 
@@ -464,8 +621,8 @@ nav {
   border: none;
   letter-spacing: 0.15rem;
   text-transform: upperCase;
-  background: #d87d4a;
-  color: #f1f1f1;
+  background: var(--orange);
+  color: var(--light-grey);
 }
 
 /* Product XX59 */
@@ -510,8 +667,8 @@ nav {
   border: none;
   letter-spacing: 0.15rem;
   text-transform: upperCase;
-  background: #d87d4a;
-  color: #f1f1f1;
+  background: var(--orange);
+  color: var(--light-grey);
 }
 
 /* Wireless Earphones */
@@ -529,7 +686,7 @@ nav {
   text-transform: upperCase;
   margin: 8rem 0 2rem 0;
   letter-spacing: 0.6rem;
-  color: #d87d4a;
+  color: var(--orange);
   opacity: 0.5;
 }
 
@@ -566,8 +723,8 @@ nav {
   border: none;
   letter-spacing: 0.15rem;
   text-transform: upperCase;
-  background: #d87d4a;
-  color: #f1f1f1;
+  background: var(--orange);
+  color: var(--light-grey);
 }
 
 /* Speakers */
@@ -584,7 +741,7 @@ nav {
   text-transform: upperCase;
   margin: 8rem 0 2rem 0;
   letter-spacing: 0.6rem;
-  color: #d87d4a;
+  color: var(--orange);
   opacity: 0.5;
 }
 
@@ -621,8 +778,8 @@ nav {
   border: none;
   letter-spacing: 0.15rem;
   text-transform: upperCase;
-  background: #d87d4a;
-  color: #f1f1f1;
+  background: var(--orange);
+  color: var(--light-grey);
 }
 
 /* ZX7 */
@@ -639,7 +796,7 @@ nav {
   text-transform: upperCase;
   margin: 8rem 0 2rem 0;
   letter-spacing: 0.6rem;
-  color: #d87d4a;
+  color: var(--orange);
   opacity: 0.5;
 }
 
@@ -672,8 +829,8 @@ nav {
   border: none;
   letter-spacing: 0.15rem;
   text-transform: upperCase;
-  background: #d87d4a;
-  color: #f1f1f1;
+  background: var(--orange);
+  color: var(--light-grey);
 }
 
 /* Promo */
@@ -701,7 +858,7 @@ nav {
 }
 
 span {
-  color: #d87d4a;
+  color: var(--orange);
 }
 
 .promo-text p {
@@ -720,7 +877,7 @@ span {
 
 /* Footer */
 .footer {
-  background-color: #000;
+  background-color: var(--black);
   height: 22rem;
 }
 
@@ -742,7 +899,7 @@ span {
 }
 
 .footer-nav-container a {
-  color: #fff;
+  color: var(--white);
   margin: 2rem;
   text-decoration: none;
 }
@@ -756,13 +913,13 @@ span {
   font-family: Manrope-Bold;
   font-weight: 700;
   font-size: 1.75rem;
-  color: #fff;
+  color: var(--white);
   margin-right: 25rem;
 }
 
 .footer-description h4,
 .footer-description p {
-  color: #fff;
+  color: var(--white);
 }
 
 .footer-description p {
