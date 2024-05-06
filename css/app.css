@@ -334,6 +334,21 @@ nav {
   margin: 0 auto;
 }
 
+/* Mobile Navigation: Category Header */
+@media only screen and (max-width: 600px) {
+  .cat-header {
+    width: 78%;
+    margin: 0;
+    padding: 0 0 3rem 6rem;
+  }
+
+  .cat-header h3 {
+    letter-spacing: 0.2rem;
+    width: 100%;
+    margin: 0;
+  }
+}
+
 /* Home Page Display Cards */
 .display-cards {
   display: flex;
