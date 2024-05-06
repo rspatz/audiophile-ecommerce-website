@@ -654,7 +654,7 @@ nav {
   }
 }
 
-/* Product Mark II */
+/* Headphones Page: Product Mark II */
 .product-container-mark-2 {
   display: flex;
   height: 35rem;
@@ -700,7 +700,55 @@ nav {
   color: var(--light-grey);
 }
 
-/* Product Mark I */
+/* Mobile Headphones Page: Product Mark II */
+@media only screen and (max-width: 600px) {
+  .product-container-mark-2 {
+    flex-direction: column;
+    height: 50rem;
+    width: 90%;
+    margin: 6rem auto;
+  }
+
+  .product-left-mark-2 {
+    height: 30rem;
+    width: 90%;
+    background: url('../assets/product-xx99-mark-two-headphones/mobile/image-product.jpg')
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .product-right-mark-2 {
+    width: 90%;
+    margin: 1rem 0 0 1rem;
+  }
+
+  .product-right-59 h2 {
+    margin: 7rem 0;
+    text-align: center;
+  }
+
+  .product-right-mark-2 h4 {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .product-right-mark-2 p {
+    opacity: 60%;
+    line-height: 1.75rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .product-right-mark-2 button {
+    width: 60%;
+    margin: 2rem 5rem;
+  }
+}
+
+/* Headphones Page: Product Mark I */
 .product-container-mark-1 {
   display: flex;
   height: 35rem;
@@ -754,7 +802,73 @@ nav {
   color: var(--light-grey);
 }
 
-/* Product XX59 */
+/* Mobile Headphones Page: Product Mark I */
+@media only screen and (max-width: 600px) {
+  .product-container-mark-1 {
+    flex-direction: column-reverse;
+    height: 50rem;
+    width: 90%;
+    margin: 6rem auto;
+  }
+
+  .product-container-mark-1 h2 {
+    width: 90%;
+    margin-top: 3rem;
+  }
+
+  .product-container-mark-1 h4 {
+    font-size: 0.9rem;
+    text-transform: upperCase;
+    margin: 8rem 0 2rem 0;
+    letter-spacing: 0.6rem;
+    color: var(--orange);
+    opacity: 0.5;
+  }
+
+  .product-right-mark-1 {
+    height: 30rem;
+    width: 90%;
+    background: url('../assets/product-xx99-mark-one-headphones/mobile/image-product.jpg')
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+
+  .product-left-mark-1 {
+    width: 90%;
+    margin: 0 2rem 0 1rem;
+  }
+
+  .product-left-mark-1 h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .product-left-mark-1 h4 {
+    margin: 6rem 0 0.25rem 0;
+    text-align: center;
+  }
+
+  .product-left-mark-1 p {
+    opacity: 60%;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+
+  .product-left-mark-1 button {
+    padding: 1rem 2rem;
+    width: 60%;
+    margin: 2rem 4rem;
+    border: none;
+    letter-spacing: 0.15rem;
+    text-transform: upperCase;
+    background: var(--orange);
+    color: var(--light-grey);
+  }
+}
+
+/* Headphones Page: Product XX59 */
 .product-container-59 {
   display: flex;
   height: 35rem;
@@ -798,6 +912,69 @@ nav {
   text-transform: upperCase;
   background: var(--orange);
   color: var(--light-grey);
+}
+
+/* Mobile Headphones Page: Product XX59 */
+@media only screen and (max-width: 600px) {
+  .product-container-59 {
+    flex-direction: column;
+    height: 50rem;
+    width: 90%;
+    margin: 6rem auto;
+  }
+
+  .product-container-59 h2 {
+    width: 90%;
+    margin-top: 3rem;
+  }
+
+  .product-container-59 h4 {
+    font-size: 0.9rem;
+    text-transform: upperCase;
+    margin: 8rem 0 2rem 0;
+  }
+
+  .product-left-59 {
+    height: 30rem;
+    width: 90%;
+    background: url('../assets/product-xx59-headphones/mobile/image-product.jpg')
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+
+  .product-right-59 {
+    width: 90%;
+    margin: 0 2rem 0 1rem;
+  }
+
+  .product-right-59 h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .product-right-59 h4 {
+    margin: 6rem 0 0.25rem 0;
+    text-align: center;
+  }
+
+  .product-right-59 p {
+    opacity: 60%;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+
+  .product-right-59 button {
+    padding: 1rem 2rem;
+    width: 60%;
+    margin: 2rem 4rem;
+    border: none;
+    letter-spacing: 0.15rem;
+    text-transform: upperCase;
+    background: var(--orange);
+    color: var(--light-grey);
+  }
 }
 
 /* Wireless Earphones */
