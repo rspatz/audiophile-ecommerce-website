@@ -99,6 +99,11 @@ p {
   font-family: 'Manrope-Regular';
 }
 
+button a {
+  text-decoration: none;
+  color: var(--white);
+}
+
 /* Logo */
 .logo {
   color: var(--white);
@@ -109,6 +114,7 @@ p {
   font-family: Manrope-Bold;
   font-weight: 700;
   font-size: 1.75rem;
+  text-transform: lowercase;
 }
 
 .sr-only {
@@ -125,7 +131,8 @@ nav {
   opacity: 90%;
   font-family: Manrope-Regular;
   display: flex;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+  height: 1rem;
   width: 90rem;
   margin: 0 auto;
 }
@@ -700,8 +707,17 @@ nav {
   margin: 10rem 0 2rem 0;
 }
 
+.product-right-mark-2 h2 {
+  margin-bottom: 2rem;
+}
+
 .product-right-mark-2 h4 {
-  margin: 6rem 0 0.25rem 0;
+  font-size: 0.9rem;
+  text-transform: upperCase;
+  margin: 4rem 0 0.5rem 0;
+  letter-spacing: 0.6rem;
+  color: var(--orange);
+  opacity: 0.5;
 }
 
 .product-right-mark-2 p {
@@ -717,6 +733,13 @@ nav {
   text-transform: upperCase;
   background: var(--orange);
   color: var(--light-grey);
+}
+
+.price {
+  font-family: 'Manrope-Medium';
+  font-size: 1.2rem;
+  letter-spacing: 0.15rem;
+  margin: 2rem 0 1rem 0;
 }
 
 /* Mobile Headphones Page: Product Mark II */
