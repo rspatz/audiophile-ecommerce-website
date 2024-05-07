@@ -956,6 +956,29 @@ nav {
   color: var(--light-grey);
 }
 
+.product-details {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.details-left {
+  width: 50%;
+  margin: 4rem auto;
+  margin-right: 5rem;
+}
+
+.details-left p {
+  font-size: 0.85rem;
+  margin: 2rem 0;
+  width: 95%;
+}
+
+.details-right {
+  width: 35%;
+  align-items: center;
+}
+
 /* Mobile Headphones Page: Product XX59 */
 @media only screen and (max-width: 600px) {
   .product-container-59 {
