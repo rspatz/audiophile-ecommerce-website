@@ -356,6 +356,16 @@ nav {
   }
 }
 
+/* Gallery */
+.gallery {
+}
+
+.gallery-cards-heading h4 {
+  text-transform: upperCase;
+  width: 20%;
+  margin: 5rem auto;
+}
+
 /* Display Cards */
 .display-cards {
   display: flex;
@@ -365,12 +375,6 @@ nav {
   align-items: baseline;
   /* Aligns buttons at bottom */
 }
-
-/* .display-cards-heading h4 {
-  text-transform: upperCase;
-  width: 20%;
-  margin: 5rem auto;
-} */
 
 .card-1,
 .card-2,
