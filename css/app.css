@@ -963,13 +963,14 @@ nav {
 }
 
 .details-left {
-  width: 50%;
-  margin: 4rem auto;
-  margin-right: 5rem;
+  width: 90%;
+  margin: 3rem 5rem;
 }
 
 .details-left p {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
   margin: 2rem 0;
   width: 95%;
 }
@@ -977,6 +978,24 @@ nav {
 .details-right {
   width: 35%;
   align-items: center;
+}
+
+.details-right h3 {
+  margin: 3rem 0 2rem 0;
+}
+
+.details-right li {
+  font-family: 'Manrope-Light';
+  line-height: 2rem;
+  letter-spacing: 0.15rem;
+  font-size: 0.8rem;
+  list-style-type: none;
+}
+
+.details-right span {
+  font-family: 'Manrope-Bold';
+  font-weight: 900;
+  margin-right: 1.5rem;
 }
 
 /* Mobile Headphones Page: Product XX59 */
@@ -1453,10 +1472,6 @@ span {
     width: 90%;
     margin: 2rem 1rem;
     letter-spacing: 0.1rem;
-  }
-
-  span {
-    color: var(--orange);
   }
 
   .promo-text p {
