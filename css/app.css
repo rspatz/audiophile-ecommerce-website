@@ -1224,6 +1224,60 @@ nav {
   border-radius: 5px;
 }
 
+/* Mobile Call-to-Action Image Section */
+@media only screen and (max-width: 600px) {
+}
+
+/* Call-to-Action Mark One Headphone Page */
+.cta-img-mark-one {
+  display: flex;
+  height: 35rem;
+  width: 85%;
+  margin: 3rem 8rem;
+  margin-bottom: 8rem;
+}
+
+.cta-img-left-mark-one {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 35rem;
+}
+
+.cta-img-left-top-mark-one {
+  height: 17.5rem;
+  background: url('../assets/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  margin: 0 2rem 2rem 0;
+  border-radius: 5px;
+}
+
+.cta-img-left-bottom-mark-one {
+  height: 17.5rem;
+  background: url('../assets/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  margin: 0 2rem 2rem 0;
+  border-radius: 5px;
+}
+
+.cta-img-right-mark-one {
+  height: 33rem;
+  width: 100%;
+  background: url('../assets/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+/* Mobile Call-to-Action Mark One Headphone Page */
+@media only screen and (max-width: 600px) {
+}
+
 /* Mobile Headphones Page: Product XX59 */
 @media only screen and (max-width: 600px) {
   .product-container-59 {
