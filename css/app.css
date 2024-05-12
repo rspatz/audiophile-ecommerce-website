@@ -434,6 +434,83 @@ nav {
   color: var(--light-grey);
 }
 
+/* Product XX99 Mark 1 Gallery */
+.gallery-cards-mark-one {
+  height: 25rem;
+  width: 85%;
+  margin: 2rem 8rem;
+}
+
+.gallery-cards-heading-mark-one h3 {
+  text-transform: upperCase;
+  width: 60%;
+  margin: 3rem 28rem;
+  letter-spacing: 0.25rem;
+  opacity: 50%;
+}
+
+.gallery-card-container-mark-one {
+  display: flex;
+}
+
+.gallery-card-1-mark-one,
+.gallery-card-2-mark-one,
+.gallery-card-3-mark-one {
+  height: 25rem;
+  width: 100%;
+  margin-right: 2rem;
+}
+
+.gallery-card-img-1-mark-one {
+  height: 22rem;
+  width: 100%;
+  background: url(../assets/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg)
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gallery-card-img-2-mark-one {
+  height: 22rem;
+  width: 100%;
+  background: url(../assets/product-xx59-headphones/desktop/image-category-page-preview.jpg)
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gallery-card-img-3-mark-one {
+  height: 22rem;
+  width: 100%;
+  background: url(../assets/product-zx9-speaker/desktop/image-category-page-preview.jpg)
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gallery-card-name-mark-one h5 {
+  width: 60%;
+  text-align: center;
+  margin: 2rem 4rem;
+  margin-left: 5rem;
+  margin-bottom: 0;
+}
+
+.gallery-card-name-mark-one button {
+  padding: 1rem 2rem;
+  width: 55%;
+  margin: 2rem 5rem;
+  margin-left: 6rem;
+  border: none;
+  letter-spacing: 0.15rem;
+  text-transform: upperCase;
+  background: var(--orange);
+  color: var(--light-grey);
+}
+
 /* Display Cards */
 .display-cards {
   display: flex;
