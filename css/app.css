@@ -1480,6 +1480,56 @@ nav {
 @media only screen and (max-width: 600px) {
 }
 
+/* Call-to-Action ZX9 Speaker Page */
+.cta-img-zx9 {
+  display: flex;
+  height: 35rem;
+  width: 85%;
+  margin: 3rem 8rem;
+  margin-bottom: 8rem;
+}
+
+.cta-img-left-zx9 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 35rem;
+}
+
+.cta-img-left-top-zx9 {
+  height: 17.5rem;
+  background: url('../assets/product-zx9-speaker/desktop/image-gallery-1.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  margin: 0 2rem 2rem 1rem;
+  border-radius: 5px;
+}
+
+.cta-img-left-bottom-zx9 {
+  height: 17.5rem;
+  background: url('../assets/product-zx9-speaker/desktop/image-gallery-2.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  margin: 0 2rem 2rem 0;
+  border-radius: 5px;
+}
+
+.cta-img-right-zx9 {
+  height: 33rem;
+  width: 100%;
+  background: url('../assets/product-zx9-speaker/desktop/image-gallery-3.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+/* Mobile Call-to-Action ZX9 Speaker Page */
+@media only screen and (max-width: 600px) {
+}
+
 /* Mobile Headphones Page: Product XX59 */
 @media only screen and (max-width: 600px) {
   .product-container-59 {
