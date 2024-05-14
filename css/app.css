@@ -587,6 +587,83 @@ nav {
   color: var(--light-grey);
 }
 
+/* Product ZX9 Speaker Gallery */
+.gallery-cards-zx9 {
+  height: 25rem;
+  width: 85%;
+  margin: 2rem 8rem;
+}
+
+.gallery-cards-heading--zx9 h3 {
+  text-transform: upperCase;
+  width: 60%;
+  margin: 3rem 28rem;
+  letter-spacing: 0.25rem;
+  opacity: 50%;
+}
+
+.gallery-card-container-zx9 {
+  display: flex;
+}
+
+.gallery-card-1-zx9,
+.gallery-card-2-zx9,
+.gallery-card-3-zx9 {
+  height: 25rem;
+  width: 100%;
+  margin-right: 2rem;
+}
+
+.gallery-card-img-1-zx9 {
+  height: 22rem;
+  width: 100%;
+  background: url(../assets/product-zx7-speaker/desktop/image-category-page-preview.jpg)
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gallery-card-img-2-zx9 {
+  height: 22rem;
+  width: 100%;
+  background: url(../assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg)
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gallery-card-img-3-zx9 {
+  height: 22rem;
+  width: 100%;
+  background: url(../assets/product-xx59-headphones/desktop/image-category-page-preview.jpg)
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gallery-card-name-zx9 h5 {
+  width: 60%;
+  text-align: center;
+  margin: 2rem 4rem;
+  margin-left: 5rem;
+  margin-bottom: 0;
+}
+
+.gallery-card-name-zx9 button {
+  padding: 1rem 2rem;
+  width: 55%;
+  margin: 2rem 5rem;
+  margin-left: 6rem;
+  border: none;
+  letter-spacing: 0.15rem;
+  text-transform: upperCase;
+  background: var(--orange);
+  color: var(--light-grey);
+}
+
 /* Display Cards */
 .display-cards {
   display: flex;
@@ -622,6 +699,10 @@ nav {
 
 .display-cards h5 {
   margin-top: -4rem;
+}
+
+.display-cards a {
+  color: var(--dark-grey-blue);
 }
 
 /* Images */
