@@ -191,13 +191,13 @@ nav {
     font-family: Manrope-Regular;
     flex-direction: column;
     padding-bottom: 2rem;
-    width: 100%;
+    width: 90%;
     margin: 0;
   }
 
   .nav-container {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     padding: 0;
     align-items: center;
   }
@@ -278,7 +278,7 @@ nav {
 @media only screen and (max-width: 600px) {
   .product-container {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     height: 65rem;
     margin: 0 0 4rem 0;
     border-bottom: 0.5px solid var(--light-grey);
@@ -742,7 +742,6 @@ nav {
 }
 
 /* Home Page: Product ZX9 */
-
 .product-container-ZX9 {
   display: flex;
   height: 35rem;
@@ -1611,6 +1610,56 @@ nav {
 @media only screen and (max-width: 600px) {
 }
 
+/* Call-to-Action ZX7 Speaker Page */
+.cta-img-zx7 {
+  display: flex;
+  height: 35rem;
+  width: 85%;
+  margin: 3rem 8rem;
+  margin-bottom: 8rem;
+}
+
+.cta-img-left-zx7 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 35rem;
+}
+
+.cta-img-left-top-zx7 {
+  height: 17.5rem;
+  background: url('../assets/product-zx9-speaker/desktop/image-gallery-1.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  margin: 0 2rem 2rem 1rem;
+  border-radius: 5px;
+}
+
+.cta-img-left-bottom-zx7 {
+  height: 17.5rem;
+  background: url('../assets/product-zx9-speaker/desktop/image-gallery-2.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  margin: 0 2rem 2rem 0;
+  border-radius: 5px;
+}
+
+.cta-img-right-zx7 {
+  height: 33rem;
+  width: 100%;
+  background: url('../assets/product-zx9-speaker/desktop/image-gallery-3.jpg')
+    no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+/* Mobile Call-to-Action ZX7 Speaker Page */
+@media only screen and (max-width: 600px) {
+}
+
 /* Mobile Headphones Page: Product XX59 */
 @media only screen and (max-width: 600px) {
   .product-container-59 {
@@ -1844,7 +1893,7 @@ nav {
   display: flex;
   height: 35rem;
   width: 70rem;
-  margin: 10rem auto;
+  margin: 3rem 8rem 10rem 8rem;
 }
 
 .product-container-zx9 h4 {
@@ -1857,11 +1906,11 @@ nav {
 }
 
 .product-left-zx9 {
-  width: 45%;
+  width: 50%;
   background: url('../assets/product-zx9-speaker/desktop/image-product.jpg')
     no-repeat;
   background-size: cover;
-  margin: 0 2rem 0 6rem;
+  margin: 0 4rem 0 1rem;
   border-radius: 10px;
 }
 
@@ -2134,7 +2183,7 @@ span {
   }
 
   .promo-text p {
-    opacity: 100%;
+    opacity: 90%;
     line-height: 1.75rem;
     text-align: center;
     margin: 0 2rem;
@@ -2218,9 +2267,10 @@ span {
 
   .footer-nav-container {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     padding: 0;
     align-items: center;
+    margin-bottom: 25rem;
   }
 
   .footer-nav-container ul {
